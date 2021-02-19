@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+h2 {
+        font-size: 1.5em;
+}
+div {
+    width: 300px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+p {
+    font-size: 1.5em;
+    text-align: justify;
+    margin-right: 2em;
+    margin-left: 2em;
+}
