@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <h1>Contactenos</h1>
+    <form action="confirmacion.html" method="post">
+        <fieldset>
+        <legend>Ingrese la información</legend>
+        Por favor, ingrese sus nombres<br>
+        <input type="text" name="nombres"><br><br>
+        Por favor, ingrese sus apellidos<br>
+        <input type="text" name="apellidos"><br><br>
+        Genero<br>
+        <input type="radio" name="genero" value="Masculino">Masculino<br>
+        <input type="radio" name="genero" value="Femenino">Femenino<br>
+        <input type="radio" name="genero" value="Indeterminado">Indeterminado<br><br>
+        Tipo de celular de interes<br>
+        <input type="checkbox" name="tipo-celu" value="basic-Phone">Teléfono Básico<br>
+        <input type="checkbox" name="tipo-celu" value="feature-Phone">Teléfono Funcional<br>
+        <input type="checkbox" name="tipo-celu" value="smartphone">Teléfono Inteligente<br>
+        <input type="checkbox" name="tipo-celu" value="phablet">Combinación Teléfono Tableta<br>
+        <input type="checkbox" name="tipo-celu" value="otra">Otro. ¿Cual?<input type="text" name="Otro-celu"><br><br>
+        Ciudad<br>
+        <select name="municipio">
+            <option value="Neiva">Neiva</option>
+            <option value="Pitalito">Pitalito</option>
+            <option value="Garzón">Garzón</option>
+            <option value="San Agustin">San Agustin</option>
+            <option value="Tesalia">Tesalia</option>
+            <option value="Isnos">Isnos</option>
+            <option value="Timaná">Timaná</option>
+            <option value="Saladoblanco">Saladoblanco</option>
+            <option value="Oporapa">Oporapa</option>
+            <option value="Suaza">Suaza</option>
+            <option value="Acevedo">Acevedo</option>
+            <option value="Palestina">Palestina</option>
+        </select><br><br>
+        Ingrese su petición, queja o reclamo<br>
+        <textarea name="Pregunta" cols="40" rows="5"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+    <a href="index.html">Volver a la pagina principal</a>
+</body>
+</html>
