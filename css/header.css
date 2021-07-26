@@ -1,0 +1,39 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+#nav-bar {
+    width: 100%;
+    background-color: rgba(67, 128, 241, 0.541);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#nav-bar-hidden {
+    width: 100%;
+    background-color: rgba(241, 210, 210, 0.541);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    visibility: hidden;
+    left: 0;
+    top: 0;
+}
+ul {
+    text-align: right;
+}
+li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 1.2em;   
+}
+.logo-menu {
+    float: left;
+    margin: 1em;
+}
+p {
+    font-size: 1.6em;
+    clear: both;
+    text-align: justify;
+}
