@@ -3,11 +3,12 @@ $(document).ready(main);
 var contador = 1;
 
 function main() {
-    $('.menu_bar').click(function() {
+    $('.menu_bar').click(function(){
         if (contador == 1) {
             $('nav').animate ({
                 left: '0'
             });
+            contador = 0;
         }
         else {
             contador = 1;
@@ -17,6 +18,6 @@ function main() {
         }
     });
     $('.submenu').click(function() {
-        $(this).children('children').slideToggle();
-    });  
+        $(this).children('.children').slideToggle();
+    });
 }
