@@ -1,0 +1,35 @@
+:root {
+    --primary: #bdc3c798;
+    --secundary: #2c3e5083;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-content {
+    
+    background: linear-gradient(135deg, var(--primary), var(--secundary)),url(../img/paisajes.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.box-titulo {
+    padding-top: 120px;
+    margin: 0 auto;
+    width: 750px;
+    font-family: 'Black Ops One', cursive;
+    font-style: italic;
+    color: whitesmoke;
+    font-size: 3em;
+}
+.box-frase {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    color: whitesmoke;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+}
+h1 {
+    font-size: 4em;
+}
