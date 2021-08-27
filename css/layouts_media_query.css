@@ -1,11 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-}
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -42,7 +34,7 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .content-main{
-    margin-top: 1;
+ 
     background-color: white;
     width: 100%;
     height: 700px;
@@ -153,13 +145,140 @@ h2{
         text-align: left;
         text-decoration: none;
         list-style: none;
-        font-family: 'oswald'; 
+        font-family: 'oswald';
+        
     }
+    
+        
+   
    img {
        margin:  0 auto 0 auto;
        display: block;
        position: initial;
    }
+
+
+   @media only screen and (min-width:1024px) and (max-width: 1680px)
+   {
+       body{
+           background-color: purple;
+       }
+       .content-main{
+        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-left: 15px;
+       
+    }
+    .content-1{
+        float: left;
+        width: 30%;
+        margin-left: 20px;
+        
+      
+    }
+    .content-2{
+        float: left;
+        width: 30%;
+        margin-left: 25px;
+     
+    }
+    .content-3{
+        float: left;
+        width: 30%;
+        margin-left: 20px;
+      
+        
+    }
+    .content-4{
+        float: left;
+        width: 30%;
+        margin-left: 20px;
+  
+       
+    }
+    
+   
+   }
+   @media only screen and (min-width:768px) and (max-width: 1023px) 
+   {
+       body{
+           background-color: pink;
+       }
+       .content-main{
+        width: 100%;
+        margin-bottom: 0px;
+        padding-left: 15px;
+    }
+    .content-1{
+        float: left;
+        width: 45%;
+        margin: 15px;
+      
+    }
+    .content-2{
+        float: left;
+        width: 45%;
+        margin: 15px;
+    }
+    .content-3{
+        float: left;
+        width: 45%;
+        margin: 15px;
+        
+    }
+    .content-4{
+        float: left;
+        width: 45%;
+        margin: 15px;
+        
+        
+       
+    }
+    
+   }
+
+   @media only screen and (max-width: 767px)
+   {
+       body {
+           background-color: powderblue;
+       }
+       .content-main{
+        margin-top: 1;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-left: 15px;
+    }
+    .content-1{
+        float: left;
+        width: 90%;
+        margin: 15px;
+    
+      
+    }
+    .content-2{
+        float: left;
+        width: 90%;
+        margin: 15px;
+    
+    }
+    .content-3{
+        float: left;
+        width: 90%;
+        margin: 15px;
+    
+        
+    }
+    .content-4{
+        float: left;
+        width: 90%;
+        margin: 15px;
+    
+       
+    }
+    
+   }
+   
 
 
 /* bellota-regular - latin */
@@ -176,91 +295,3 @@ h2{
          url('../fonts/bellota-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/bellota-v2-latin-regular.svg#Bellota') format('svg'); /* Legacy iOS */
   }
-
-
-h1.fuente-grande {
-    font-size: 50px;
-}
-h1, h2, p {
-    text-align: center;
-}
-h1.titulo-menu {
-    text-align: left;
-    color: white;
-}
-.fuente-regular {
-    font-weight: 400;
-}
-.fuente-bold {
-    font-weight: bold;
-}
-.fuente-900 {
-    font-weight: 900;
-}
-.fuente-italica {
-    font-style: italic;
-    font-weight: 400;
-}
-.fuente-italica-negrita {
-    font-style: italic;
-    font-weight: bold;
-}
-h2 {
-    font-size: 1.5em;
-}
-div {
-    width: 300px;
-    display: block;
-    margin: 0 auto 0 auto;
-}
-.fondo-rojo {
-    width: 300px;
-    height: 50px;
-    background-color: red;
-}
-.fondo-violetaazul {
-    width: 300px;
-    height: 50px;
-    background-color: blueviolet;
-}
-.fondo-lima {
-    width: 300px;
-    height: 50px;
-    background-color: lime;
-}
-.fondo-amarillo-rgb {
-    width: 300px;
-    height: 50px;
-    background-color: rgb(255,255,0);
-}
-.fondo-lightsalmon-rgb {
-    width: 300px;
-    height: 50px;
-    background-color: rgb(255,160,122);
-}
-.fondo-aquamarine-rgb {
-    width: 300px;
-    height: 50px;
-    background-color: rgb(127,255,212);
-}
-.fondo-olive-hx {
-    width: 300px;
-    height: 50px;
-    background-color: #808000;
-}
-.fondo-darkred-hx {
-    width: 300px;
-    height: 50px;
-    background-color: #8b0000;
-}
-.fondo-mediumblue-hx {
-    width: 300px;
-    height: 50px;
-    background-color: #0000cd;
-}
-p {
-    font-size: 40px;
-}
-p.parrafo-enlace {
-    font-size: 40px;
-}

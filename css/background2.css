@@ -2,29 +2,44 @@
     margin: 0;
     padding: 0;
 }
-#nav-bar {
-    position: absolute;
+body {
+    background-image: url("../img/camaras-paisaje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+img{
     width: 100%;
 }
-ul {
+
+#nav-bar{
+    text-align: right ;
+    position: absolute;
+ }
+ul{
+    font-family: 'Bellota';
+    padding-left: 280px;
     text-align: right;
 }
-li {
+li{
     display: inline-block;
-    font-size: 1.8em;
-    padding: 1em;
+    font-size: 1.3em;
+    padding: 1em 1em;
 }
-a {
+a{
+    color: black;
     text-decoration: none;
-    color: rgb(48, 48, 48);
 }
-.img-principal {
-    width: 100%;
-}
-p {
-    font-size: 1.8em;
-    text-align: justify;
-}
-#content-main {
-    margin: 4em 2em;
-}
+@font-face {
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: 400;
+    
+    src: url('../fonts/bellota-v2-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/bellota-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bellota-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bellota-v2-latin-regular.svg#Bellota') format('svg'); /* Legacy iOS */
+  }
