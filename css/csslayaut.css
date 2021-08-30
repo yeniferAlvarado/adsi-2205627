@@ -1,11 +1,11 @@
 *{
-    /*padding: 0px;*/
+    padding: 0px;
     margin: 0px;
 }
 body{  
     text-align: center;
     font-style: italic;
-   }
+}
 
 .header1{
     width: 100%;

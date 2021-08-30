@@ -1,0 +1,89 @@
+    body {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background-image: url("fondo.jpg");
+        background-repeat: no-repeat;
+        font-family: Arial;
+    }
+    
+    .contenedor {
+        width: 310px;
+        height: 442px;
+        background-color: rgba(250, 249, 249, 0.4);
+        border: 1px black;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+        border-radius: 35px;
+        text-align: center;
+    }
+    
+    .contenedor .avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: -10%;
+        left: calc(50% - 50px);
+    }
+    
+    .contenedor-input {
+        display: flex;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .icono {
+        padding-left: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 22px;
+        color: rgb(19, 93, 161);
+    }
+    
+    img {
+        height: 22px;
+        width: 22px;
+    }
+    
+    .campo {
+        border: none;
+        border-bottom: 1px solid black;
+        background: transparent;
+        outline: none;
+        color: black;
+        font-size: 16px;
+        position: absolute;
+        left: 15%;
+        padding-left: 30px;
+        padding-top: 6px;
+    }
+    
+    input[type=submit] {
+        margin-top: 30px;
+        outline: none;
+        color: white;
+        border: none;
+        background-color: gray;
+        text-decoration: none;
+        font-size: 16px;
+        width: 100%;
+        height: 50px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+    a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 17px;
+        line-height: 20px;
+        color: rgb(9, 126, 236);
+    }
