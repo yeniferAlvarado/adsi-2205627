@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section, .article1, .article2, .article3 {
+    padding: 20px;
+    font-size: 1.6em;
+    border: 2px solid whitesmoke;
+    line-height: 10vh;
+    text-align: center;
+    color: white;
+}
+.page_content{
+    display: grid;
+    grid-template: "section nav nav"
+                   "article1 article1" 100px
+                   "article2 article2" 100px
+                   "article3 article3" 100px
+                   "article4 article4" 100px
+                   "sidebar section" auto
+                   "footer footer" 100px /
+                   400px auto;
+    margin: 50px;
+}
+.header1, .nav1, .article1, .side1{
+    padding: 20px;
+    border: 3px solid white;
+}
+.header1{
+    background: rgb(206, 206, 206);
+    width: 500px;
+}
+.nav{
+    background: aqua;
+    padding: 50px;
+}
+.section{
+    background: tan;
+}
+.article1{
+    background:teal;
+}
+.article2{
+    background: sienna;
+}
+.article3{
+    background: palegreen;
+}
+.article4{
+    background: tomato;
+}
+
+.side1{
+    background: teal;
+}

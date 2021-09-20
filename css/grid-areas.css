@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header, .navbar, .sidebar, .article, .section, .footer {
+    padding: 20px;
+    font-size: 1.6em;
+    border: 2px solid whitesmoke;
+    line-height: 10vh;
+    text-align: center;
+    color: white;
+}
+.page_content{
+    display: grid;
+    grid-template: "header   header"  100px
+                   "navbar   navbar" 100px
+                   "sidebar article" 100px
+                   "sidebar section" auto
+                   "footer footer" 100px /
+                   400px auto;
+}
+.header{
+    background: deepskyblue;
+    grid-area: header;
+}
+.navbar{
+    background: tomato;
+    grid-area: navbar;
+}
+.sidebar{
+    grid-area: sidebar;
+    justify-content: center;
+    background: whitesmoke;
+    color: rgb(96, 96, 96,.8);
+    display: flex;
+    align-items: center;
+}
+.article{
+    grid-area: article;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: dimgray;
+    font-weight: 900;
+    border: none;
+}
+.section{
+    border: none;
+    grid-area: section;
+}
+.footer{
+    background: rosybrown;
+    grid-area: footer;
+}
+input {
+    margin-bottom: 40px;
+}
+select{
+    width: 150px;
+}
+input, select{
+    padding: 10px;
+}
+input[type=number]{
+    width: 50px;
+}
+input[type=number] button{
+    width: 3rem;
+}
+input[type=submit]{
+    margin-top: 20px;
+    cursor: pointer;
+}
