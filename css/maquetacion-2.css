@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(248,248,248);
+}
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgb(243,243,243);
+} 
+.check-menu {
+    visibility: hidden;
+}
+.icono-spa {
+    position: fixed;
+    top: 10px;
+    left: 100px;
+    z-index: 20;
+}
+.img-principal {
+    margin-top: 45px;
+    width: 100%;
+    clear: both;
+}
+section {
+    background: url("../img/spa-principal.jpg");
+    margin-top: 70px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   height: 400px;
+}
+.articles {
+    display: grid;
+    width: 90%;
+    margin: 50px auto;
+    grid-template-columns: repeat(3,400px);
+    gap: 60px;
+    grid-template: "masajes     piedras      manicure"     auto    
+                   "maquillaje  peluqueria   depilacion"   auto
+                   "productos   aceites      empty"        auto /
+                    400px       400px        400px;
+
+    justify-content: center;
+}
+.img-article {
+    width: 400px; 
+}
+.masajes {
+    grid-area: masajes;
+}
+.piedras {
+    grid-area: piedras;
+}
+.manicure {
+    grid-area: manicure;
+}
+.maquillaje {
+    grid-area: maquillaje;
+}
+.peluqueria {
+    grid-area: peluqueria;
+}
+.depilacion {
+    grid-area: depilacion;
+}
+.productos {
+    grid-area: productos;
+}
+.aceites {
+    grid-area: aceites;
+}
+footer {
+    height: 50px;
+}
+@media only screen and (max-width: 1268px) {
+    .articles {
+         grid-template-columns: repeat(2, 400px);
+        gap: 70px;
+        grid-template: "masajes     piedras"      auto    
+                        "manicure   maquillaje"   auto    
+                       "peluqueria  depilacion"   auto
+                       "productos   aceites"      auto /
+                        400px        400px;
+    
+    }
+    .img-article {
+        width: 400px; 
+    }
+}
