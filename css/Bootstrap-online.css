@@ -1,0 +1,13 @@
+.col-style {
+    background: tomato;
+}
+[class^="col"]{
+    border: 2px solid indigo;
+}
+[class^="container"] {
+    height: 150px;
+}
+.container-resp {
+    background: lightcoral;
+    color: white;
+}
