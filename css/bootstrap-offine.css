@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    margin-top: 35px;
+}
+.style-container {
+    margin: 30px auto 30px auto;
+    border: 1px solid rgba(88, 81, 81, 0.336);
+    border-radius: 8px;
+    padding: 20px;
+}
+.cursor-input {
+    cursor: pointer;
+}
